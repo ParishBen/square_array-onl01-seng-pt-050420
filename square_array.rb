@@ -3,9 +3,8 @@ def square_array(array)
   #squared_it = []
   #array.each { |element| squared_it << element ** 2 }
   #squared_it
-array.collect{|num| num**2}
-array
-puts array
+redrobin= array.collect{|num| num**2}
+p redrobin
 end
 
 square_array(array)
