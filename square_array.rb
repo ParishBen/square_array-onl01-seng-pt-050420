@@ -7,4 +7,4 @@ sap=array.collect{|num| num**2}
 puts sap.inspect
 end
 
-
+square_array(array)
