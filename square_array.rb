@@ -5,7 +5,7 @@ def square_array(array)
   #squared_it
 array.collect{|num| num**2}
 array
-puts array.inspect
+puts array
 end
 
 square_array(array)
